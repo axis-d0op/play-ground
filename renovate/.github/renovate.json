@@ -1,5 +1,6 @@
 {
-  "extends": ["config:base", "schedule:nonOfficeHours"],
+  "extends": ["config:base"],
+  "dependencyDashboard": true,
   "enabledManagers": ["npm"],
   "lockFileMaintenance": {
     "enabled": true
