@@ -1,35 +1,5 @@
 {
-  "extends": ["config:base"],
-  "dependencyDashboard": true,
-  "enabledManagers": ["npm"],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
-  "npm": {
-    "commitMessagePrefix": "chore: ",
-    "encrypted": {
-      "npmToken": "wcFMA/xDdHCJBTolAQ/9H3JVfQKla2t2O6wdJLzf4OEhIHU14WXjr5yptH00Du3UMpEsn14DO5PtEGwb0V+Qf+7N3zVDAYiEPTFLZRRvdGcMEIWUddbTP/k3K2DjZOq3YqXMGrbcLH3RZx5DPzaDl2KzFaZPSDsz1blhYNJyfcOC8FdA7uuf4AnE44Z0Z3cgyImw2XmuJCNDqxTX5zrotpN+7a1fNELziEhaiUvktsTY27RGFDeW4ZrynYFPuOkwJ8LGnR/GDPACBqG5R1NWuElXU5zbW2+u5nBCHVgmVwdtGROLAcQZxU1Fo6t+A64EzJLqSKEqW2zz0ScizrK5s4g89vd6wCQB+RQgd1CnHqudIv7JHaTdJdueutzsMa1oiZcgjU0POiZOXa3CPjLgEDETkMLYqYZ2XZTrHQuveRHHxXiAUQzRHzb/vnnqpsNiVpMndIRUH2l/iv8nar90u5I0nEc8de0XLld0Ow94CT32ZVrZmxWjcvOQx665QxHKgVW1PlK+qA0xkpLeEBa1rDE3++E7zEWKKWx6TZsNaZzwKcAs0OlglZPuk50kVMQTQXHZq//ZzVNZ9uR5fWq9dMRxtKL5ho91BVQtVsXvk1JhwxK4NfIGzimtll1bespixihmTKL5tjBoJStxqE6ZYtwSZ3EqbS/bg1jBtfPtXMeqLbd3zr0tDtiCTv4gOmrSdgGM5TBj/8DNevRnLgpSAFjcDZnO4l5BK3kaDzj0dDe9TLKDUfk0OZy5Ql5V5WQsF3bQCciXdk/oab/1Z64qSyc470usTOHdE0ZTLKENDS5N4dmnW1Xzf2BZGOKXvK53DTi30y01E6VSbRqzzROWXZ9t/yB5Ud8"
-    },
-    "npmrc": "@lkp-rnd:registry=https://npm.pkg.github.com/\n@axteams-software:registry=https://npm.pkg.github.com/\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}\nauto-install-peers=true",
-    "packageRules": [],
-    "major": {
-      "automerge": false,
-      "draftPR": true
-    },
-    "patch": {
-      "automerge": false
-    },
-    "minor": {
-      "automerge": false
-    },
-    "pin": {
-      "automerge": false
-    }
-  },
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "rangeStrategy": "bump",
-  "updateNotScheduled": false,
-  "prConcurrentLimit": 15,
-  "stabilityDays": 1,
-  "timezone": "Europe/Stockholm",
-  "rebaseWhen": "behind-base-branch"
+  "extends": ["config:base"]
 }
