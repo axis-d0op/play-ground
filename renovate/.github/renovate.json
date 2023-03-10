@@ -26,6 +26,7 @@
       "automerge": false
     }
   },
+  "rangeStrategy": "bump",
   "updateNotScheduled": false,
   "prConcurrentLimit": 15,
   "stabilityDays": 1,
