@@ -12,8 +12,3 @@ updates:
     allow:
     # Allow both direct and indirect updates for all packages
     - dependency-type: "all"
-
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
- 
